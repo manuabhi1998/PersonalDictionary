@@ -1,21 +1,13 @@
 package com.example.dell4.personaldictionary;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class AddUpdateActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_add_update);
     }
-
-
-    public void addWord(View view){
-        Intent intent = new Intent();
-    }
-
 }
